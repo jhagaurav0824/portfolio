@@ -1,37 +1,20 @@
+projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
-<!DOCTYPE html>
-<html>
-<head>
-<title>Projects</title>
-<link rel="stylesheet" href="style.css">
-</head>
+.card {
+    background: white;
+    color: black;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
 
-<body>
-
-<header>
-<h1>Gaurav Jha</h1>
-<p>BSc CS Student | Mumbai</p>
-
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="projects.html" class="active">Projects</a>
-<a href="contact.html">Contact</a>
-</nav>
-</header>
-
-<section>
-<h2>My Projects</h2>
-<ul>
-<li>Portfolio Website</li>
-<li>HTML & CSS Practice Website</li>
-<li>College Web Development Assignment</li>
-</ul>
-</section>
-
-<footer>
-<p>© 2026 Gaurav Jha</p>
-</footer>
-
-</body>
-</html>
+.card:hover {
+    transform: scale(1.05);
+}
